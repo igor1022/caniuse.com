@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="nav">
+
+		
+		<div class="home">
+			<a href="#">Home</a>
+		</div>
+
+		<div class="news">
+			<a href="#">News</a>
+		</div>
+
+		<div class="date">
+			March 18, 2022 - <a href="#">New feature: CSS font-palette</a>
+		</div>
+
+		<div class="brows">
+			<a href="#">Compare browsers</a>
+		</div>
+
+		<div class="about">
+			<a href="#">About</a>
+		</div>
+
+		<div class="use">
+			<a href="#">Can I Use</a>
+			<input type="" name="">
+			
+			?
+			
+			<a href="#">
+			 <img src="data:image/png;base64,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">
+				</a>	 
+
+
+		<a href="#">Settings</a>
+
+		</div>
+
+	</div>
+
+
+	<div class="box">
+		
+		<div class="index">
+
+			<a href="#">Index of features</a> 
+
+		</div>
+
+		<div class="filter">
+
+			<img class="key" src="https://cdn-icons-png.flaticon.com/512/38/38696.png">
+
+			<a href="#">Filter features</a> 
+
+		</div>
+
+	</div>
+
+<div class="box1">
+
+	<div class="latest">
+	<div class="box2">	 Latest features
+
+		<div class="line">
+			
+		</div>
+	</div>
+		<ul>
+			<a href="#"><li> CSS font-palette</li></a>
+			<a href="#"><li>COLR/CPAL(v1) Font Formats</li></a>
+            <a href="#"><li>CSS @when / @else conditional rules</li></a>
+            <a href="#"><li>LCH and Lab color values</li></a>
+            <a href="#"><li>CSS Cascade Layers</li></a>
+
+
+		</ul>	
+
+
+	</div>
+
+	<div class="latest">
+		<div class="box2">	Most searched features
+
+		<div class="line">
+			
+		</div>
+	</div>	
+		<ol>
+			<a href="#"><li>CSS Grid</li></a>
+			<a href="#"><li>Flexboxs</li></a>
+            <a href="#"><li>WebP image format</li></a>
+            <a href="#"><li>gap property for Flexbox</li></a>
+            <a href="#"><li>ES6</li></a>
+
+
+		</ol>	
+
+
+	</div>
+
+
+	<div class="latest">
+		<div class="box2"> Test a feature
+
+		<div class="line">
+			
+		</div>
+	</div>	
+
+	<div class="box2">	Our partnership with BrowserStack now lets you test your website for compatibility across 2,000+ real browsers and devices.
+
+	<p>Test on:</p>
+	</div>
+		<ol>
+			<div class="flexli">
+			<div>    <a href="#"><li>IE 11</li></a>
+				<a href="#"><li>Safari 13</li></a> </div>
+            <div>	<a href="#"><li>Safari on iPhone 11 Pro</li></a>
+            	<a href="#"><li>Chrome on Galaxy S20</li></a> </div>
+            </div>
+		</ol>	
+
+
+	</div>
+
+	</div>
+
+
+	</div>
+
+
+
+	<div class="box1 color">
+
+	<div class="latest">
+	<div class="box2">	Did you know?
+
+		<div class="line">
+			
+		</div>
+
+	<div class="box2 text-box">	If a feature you're looking for is not available on the site, you can vote to have it included. Better yet, if you've done the research you can even submit it yourself!
+		<div class="text-box_poddom">
+		<a href="#">Next</a>	
+		</div>
+	</div>	
+
+
+
+	</div>
+
+
+	</div>
+
+	<div class="latest">
+		<div class="box2">	Third party tools
+		<div class="line">
+			
+		</div>
+	</div>	
+		<ol>
+			<a href="#"><li>The CanIUse Embed — Add support tables to your site</li></a>
+			<a href="#"><li>Caniuse Component — Add support tables to your presentations</li></a>
+            <a href="#"><li>Caniuse command line tool</li></a>
+            <a href="#"><li>Doiuse...? — Lint your CSS to check what features work</li></a>
+            <a href="#"><li>I want to use — Select multiple features and see what % of users can use them</li></a>
+
+
+		</ol>	
+
+		<div class="text-box_poddom text">
+		<a href="#">See full list</a>	
+		</div>
+
+
+	</div>
+
+
+	<div class="latest1">
+		<div class="box2"> Browser scores
+
+		   <div class="line">
+			
+		   </div>
+	    </div>
+
+	    <div class="Aa">
+	   		<div class="a1">
+				<a href="#">Current version</a> 
+			</div>
+
+			<div class="a2">
+				<a href="#">Dev version</a>
+			</div>
+	    </div>
+	    
+	    <div class="Aa">
+	    	<div class="a1 color1">
+				Chrome 101: 398
+			</div>
+
+			<div class="a2 color2">
+			
+			</div>
+	    </div>
+
+	    <div class="Aa">
+	    	<div class="a1 color3">
+				Firefox 100: 375
+			</div>
+
+			<div class="a2 color2">
+			
+			</div>
+	    </div>
+
+	    <div class="Aa">
+	    	<div class="a1 color4">
+				Safari 15.4: 355
+			</div>
+
+			<div class="a2 color2">
+			
+			</div>
+	    </div>
+
+	   <div class="href">
+	   	    <a href="#">About these scores</a>
+	   </div> 
+
+	</div>
+
+
+	</div>
+
+	<div class="bodyline">
+			
+	</div>
+
+
+
+<div class="box1 color">
+
+	<div class="latest">
+	<div class="box2">	Can I use...
+
+
+	<div class="box2 text-box">	Browser support tables for modern web technologies
+
+		Created & maintained by @Fyrd, design by @Lensco.
+
+		Support data contributions by the GitHub community.
+
+		Usage share statistics by StatCounter GlobalStats for April, 2022
+
+		Location detection provided by ipinfo.io.
+
+		Browser testing done via
+
+		<a href="">
+			<div class="img1">
+	
+				<img src="https://lh3.googleusercontent.com/hb76uDAkXDZeNYMRFI6v3afzyilWTc1OL1Bf39gST3KNHzZrWo40lFaVHND1gBJJgQr2cIDRspaCfdaT5Xd9hWtfZ14=w128-h128-e365-rj-sc0x00ffffff">
+				BrowserStack
+
+			</div> 
+		</a> 
+		
+	</div>	
+
+
+
+	</div>
+
+
+	</div>
+
+	<div class="latest latest2">
+		<div class="box2">	Support via Patreon
+	
+		</div>	
+ 
+	<div class="poddom">
+		<div class="box2 text-box">	Become a caniuse Patron to support the site for only $1/month!
+		
+	    </div>	
+
+	    <a href="#">
+	    	<div class="but">
+	    	Become a Patron
+	        </div>
+	    </a> 
+
+	     <div class="box2 text-box">	<a href="#">or Log in</a>
+		
+	    </div>
+
+	</div>     
+	</div>
+
+
+	<div class="latest1">
+		<div class="box2"> Browser scores
+
+		   <div class="line">
+			
+		   </div>
+	    </div>
+
+	    <div class="Aa">
+	   		<div class="a1">
+				<a href="#">Current version</a> 
+			</div>
+
+			<div class="a2">
+				<a href="#">Dev version</a>
+			</div>
+	    </div>
+	    
+	    <div class="Aa">
+	    	<div class="a1 color1">
+				Chrome 101: 398
+			</div>
+
+			<div class="a2 color2">
+			
+			</div>
+	    </div>
+
+	    <div class="Aa">
+	    	<div class="a1 color3">
+				Firefox 100: 375
+			</div>
+
+			<div class="a2 color2">
+			
+			</div>
+	    </div>
+
+	    <div class="Aa">
+	    	<div class="a1 color4">
+				Safari 15.4: 355
+			</div>
+
+			<div class="a2 color2">
+			
+			</div>
+	    </div>
+
+	   <div class="href">
+	   	    <a href="#">About these scores</a>
+	   </div> 
+
+	</div>
+
+
+
+</body>
+</html>
